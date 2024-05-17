@@ -1,0 +1,127 @@
+body{
+    background-image: url(back.png);
+    /* position: absolute; */
+    
+}
+
+
+
+#calc{
+    box-shadow: 1px 1px 20px -6px rgb(209, 85, 8);
+    border: 3px solid black;
+    border-radius: 25px;
+    height: 410px;
+    width: 300px;
+    background-color: rgb(16, 16, 16);
+    
+}
+
+#display{
+    border: 3px solid black;
+    border: none;
+    border-radius: 15px;
+    width: 250px;
+    margin: 25px 23px;
+    height: 50px;
+    /* background-color: black; */
+    font-size: 30px;
+    outline: none;
+    background-color: whitesmoke;
+    
+    
+}
+
+.buttons{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.button{
+    margin: 16px;
+    margin-bottom: -2px;
+    border-radius: 30px;
+    text-align: center;
+    height: 43px;
+    width: 43px;
+   
+}
+.zero{
+    margin: 16px;
+    margin-bottom: -8px;
+    border-radius: 30px;
+    text-align: center;
+    height: 45px;
+    width: 40px;
+    padding-right: 110px;
+    background-color: gray;
+    border: none;
+    font-size: 28px;
+    font-weight:bolder;
+    color: whitesmoke;
+    cursor: pointer;
+    
+}
+.zero:hover{
+    background-color: rgb(100, 99, 99);
+}
+
+.white{
+    margin: 16px;
+    margin-bottom: -2px;
+    border-radius: 30px;
+    text-align: center;
+    height: 43px;
+    width: 43px;
+    background-color: gainsboro;
+    border: none;
+    /* font-size: 18px; */
+    font-size: 20px;
+    font-weight:bolder;
+    cursor: pointer;
+}
+.white:hover{
+    background-color: white;
+}
+
+.orange{
+    margin: 16px;
+    margin-bottom: -2px;
+    border-radius: 30px;
+    text-align: center;
+    height: 43px;
+    width: 43px;
+    background-color: orange;
+    border: none;
+    font-size: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight:bolder;
+    cursor: pointer;
+    
+}
+.orange:hover{
+    background-color: rgb(216, 143, 8);
+}
+.grey{
+    margin: 16px;
+    margin-bottom: -2px;
+    border-radius: 30px;
+    text-align: center;
+    height: 43px;
+    width: 43px;
+    background-color: grey;
+    border: none;
+    font-size: 20px;
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight:bolder;
+    cursor: pointer;
+}
+.grey:hover{
+    background-color: rgb(100, 99, 99);
+}
+
+
+
